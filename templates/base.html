@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minnow's Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <meta name="google" content="notranslate" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="/static/styles.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+                <ul class="navbar">
+                    <li class = "home-item">
+                        <a class="home nav-link" href="{% url 'home' %}">Minnow Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                    <li class  = "nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Notes">A Level Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                </ul>
+        </nav>
+        {% block content %}
+
+        {% endblock content %}
+
+    </body>
+</html>
+

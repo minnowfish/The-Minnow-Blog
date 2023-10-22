@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    background-color: #111828;
+}
+
+.head_text {
+    color: white;
+}
+
+
+.navbar{
+    display: inline-flexbox;
+    background-color: rgb(3, 97, 179);
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.nav-item{
+    display: inline;
+    float: right;
+
+}
+
+.home{
+    font-size: 25px;
+}
+
+.home-item{
+    font-weight: 700;
+    display: inline;
+    float: left;
+}
+
+.nav-link{
+    color:rgb(214, 229, 246);
+    margin-right: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.card{
+    margin: 100px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.text{
+    color:aliceblue;
+}
